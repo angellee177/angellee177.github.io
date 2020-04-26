@@ -65,13 +65,13 @@
 
     .main {
         background-color: #f1f1f1;
-        height: 600px;
+        height: 700px;
     }
     
     .footer {
         background-color: #2f5167;
         color: #fff;
-        height: 120px;
+        height: 180px;
         padding: 40px;
     }
 
@@ -87,3 +87,24 @@
     .footer-list li {
         padding-bottom: 20px;
     }
+
+    .contents-item {
+        float: left;
+        /* Gantikan margin-right ke 40px */
+        margin: 40px 70px;
+        height: 550px;
+        width: 365px;
+        box-shadow: 5px 10px #797979;
+        display: inline-block;
+      }
+      
+      /* Gantikan font-size dan margin-top tag <p> yang didalam contents-item */
+      .contents-item p{
+        margin-top: 30px;
+        font-size: 15px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+        hyphens: auto;
+      }
