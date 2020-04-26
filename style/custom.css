@@ -30,16 +30,22 @@
         float: left;
     }
 
-    .header-list li{
+    .header-list {
+        float: right;
+        margin-right: -25px;
+    }
+
+    .header-list a{
         float:left;
         padding: 33px 20px;
         cursor: pointer;
         display: inline-block;
         margin: 0px 20px;
         font-family: "righteous";
+        font-weight: bolder;
     }
 
-    .header-list li:hover{
+    .header-list a:hover{
         background: #797979;
         color: #f1f1f1;
     }
@@ -107,4 +113,19 @@
         word-break: break-all;
         word-break: break-word;
         hyphens: auto;
+        top: 44%;
+        width: 100%;
+      }
+      
+      .clear{
+        clear: left;
+      }
+
+      .menu-icon {
+        color: white;
+        float: right;
+        font-size: 50px;
+        padding: 21px 0;
+        /* Gantikan property display ke none */
+        display: none;
       }

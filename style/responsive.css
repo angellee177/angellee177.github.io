@@ -1,0 +1,43 @@
+
+      @media(max-width: 1000px){
+        .jumbotron .footer .header  img.profile .contents-item{
+          width: 50%;
+          margin-bottom: 50px;
+        }
+
+        .contents-item{
+            margin-bottom: 50px;
+        }
+
+        .header-logo{
+            font-size:  20px;
+        }
+      }
+      
+      
+      /* Untuk Smartphone */
+      /* Tambahkan breakpoint max-width: 670px */
+      @media(max-width: 670px){
+        .jumbotron .footer img.profile .contents-item{
+          width: 100%;
+          
+        }
+
+        
+        img.profile {
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .footer{
+            text-align: center;
+        }
+
+        .header-list {
+            display: none;
+        }
+
+        .menu-icon {
+            display: block;
+        }
+      }
