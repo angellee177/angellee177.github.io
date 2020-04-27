@@ -125,9 +125,8 @@
         color: white;
         float: right;
         font-size: 50px;
-        padding: 21px 0;
-        /* Gantikan property display ke none */
-        display: none;
+        padding: 21px 21px;
+        display: none !important;
       }
 
         h4.text-center:hover{
