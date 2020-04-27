@@ -100,7 +100,7 @@
         margin: 40px 70px;
         height: 550px;
         width: 365px;
-        box-shadow: 5px 10px #797979;
+        border: 2px solid black;
         display: inline-block;
       }
       
@@ -128,4 +128,14 @@
         padding: 21px 0;
         /* Gantikan property display ke none */
         display: none;
+      }
+
+        h4.text-center:hover{
+            text-shadow: 5px 5px #797979;
+            background-color: black;
+            color: #fff;
+        }
+
+      .contents-item:hover {
+        box-shadow: 10px 10px #797979;
       }
